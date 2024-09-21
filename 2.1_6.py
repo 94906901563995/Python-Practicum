@@ -1,0 +1,10 @@
+name = input()
+price = int(input())
+weight = int(input())
+payment = int(input())
+change = payment - price * weight
+print("Чек")
+print(name + " - " + str(weight) + "кг" + " - " + str(price) + "руб/кг")
+print("Итого: " + str(price * weight) + "руб")
+print("Внесено: " + str(payment) + "руб")
+print("Сдача: " + str(change) + "руб")

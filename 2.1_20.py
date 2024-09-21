@@ -1,0 +1,7 @@
+n = int(input())
+m = int(input())
+k1 = int(input())
+k2 = int(input())
+m2 = int((abs(k1 - m) / abs(k1 - k2)) * n)
+m1 = int((abs(k2 - m) / abs(k1 - k2)) * n)
+print(f"{m1} {m2}")
